@@ -1,11 +1,21 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("Straw Milky.otf");
+  }
+  .p2{
+    text-align: center;
+    color: #e4dada;
+    font-family: myFirstFont; 
+       
+   }
 
 body{
-background-image: url('Aladeen2.png')
+background-image: url('Aladeen2.png');
 }
 
 h1{
     text-align: center;
-    color:#e4dada
+    color:#e4dada;
 }
 
 .text{
@@ -26,3 +36,9 @@ p{
     text-align: center;
 }
 
+
+hr {
+    border: none;
+          height: 5px;
+          background: white;
+}
