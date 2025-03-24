@@ -1,0 +1,45 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("Straw Milky.otf");
+  }
+  .p2{
+    text-align: center;
+    color: #e4dada;
+    font-family: myFirstFont; 
+       
+   }
+
+body{
+background-image: url('Aladeen2.png');
+}
+
+h1{
+    text-align: center;
+    color:#e4dada;
+}
+
+.text{
+    text-align: center;
+    font-size: 30px;
+    color:#e4dada;
+    
+}
+
+.text2{
+    width: 100px;
+    height: 100px;
+    background-color: #e4dada;
+   display: inline;
+   text-align: center;
+}
+p{
+    text-align: center;
+}
+
+
+hr {
+    border: none;
+          height: 5px;
+          background: white;
+}
+
