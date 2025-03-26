@@ -1,29 +1,37 @@
 @font-face {
     font-family: myFirstFont;
-    src: url("Straw Milky.otf");
+    src: url("Super Cottage.ttf");
   }
   .p2{
     text-align: center;
-    color: #e4dada;
-    font-family: myFirstFont; 
+    color: #0c0c0c;
+    font-family: myFirstFont;
+    background-color: rgb(242, 243, 243);
        
    }
+
 
 body{
 background-image: url('Aladeen2.png');
 }
 
+
 h1{
     text-align: center;
     color:#e4dada;
+    font-family: myFirstFont;
 }
+
 
 .text{
     text-align: center;
     font-size: 30px;
     color:#e4dada;
-    
+    background-color: aquamarine;
+    font-family: myFirstFont;
+   
 }
+
 
 .text2{
     width: 100px;
@@ -32,13 +40,38 @@ h1{
    display: inline;
    text-align: center;
 }
-p{
+
+
+.p3{
+    width: 100px;
+    height: 100px;
     text-align: center;
+    display: inline;
+    margin: 5px;
+}
+.image2{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    text-align:center;
+    margin: 5px;
 }
 
 
+.image3{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    text-align: center;
+    margin: 5px;
+}
 hr {
     border: none;
           height: 5px;
           background: white;
+}
+
+
+h5 {
+    text-align: center;
 }
